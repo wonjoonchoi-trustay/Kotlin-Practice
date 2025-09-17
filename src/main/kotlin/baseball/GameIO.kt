@@ -6,7 +6,7 @@ package baseball
     * 3자리가 아닌 값은 IllegalArgumentException을 던집니다
  */
 fun getValidInputNumber(): Int {
-    print(GameMessage.INPUT_NUMBER_MESSAGE)
+    print(GameMessage.INPUT_NUMBER_MESSAGE.message)
 
     // 올바른 형식 체크
     val guessNumber = readln().toIntOrNull() ?: throw NumberFormatException(GameError.NOT_NUMBER.message)

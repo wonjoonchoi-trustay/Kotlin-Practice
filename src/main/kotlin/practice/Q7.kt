@@ -76,8 +76,3 @@ class PersonDto(
 
 fun PersonDto.toEntity(): PersonEntity = PersonEntity(name = this.name, age = this.age)
 fun PersonEntity.toDto(): PersonDto = PersonDto(name = this.name, age = this.age)
-
-
-fun main() {
-
-}

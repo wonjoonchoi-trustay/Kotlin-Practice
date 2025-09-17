@@ -56,7 +56,3 @@ class LoopExampleTest {
     fun printNumbersReverse(): String = (5 downTo 1).joinToString("\n")
     fun printEvenNumbers(): String = (2..10 step 2).joinToString("\n")
 }
-
-fun main() {
-
-}

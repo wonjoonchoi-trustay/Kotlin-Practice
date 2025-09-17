@@ -59,7 +59,3 @@ class FunctionExample3 {
             List(num) { message }.joinToString("")
         }
 }
-
-fun main() {
-
-}

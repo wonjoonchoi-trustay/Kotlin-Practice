@@ -36,7 +36,3 @@ class ExceptionExample3 {
         return str.toIntOrNull() ?: throw NumberFormatException()
     }
 }
-
-fun main() {
-
-}

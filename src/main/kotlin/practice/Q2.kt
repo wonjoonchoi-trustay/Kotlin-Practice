@@ -27,9 +27,3 @@ class Greeting {
 class Greeting2 {
     fun sayHello(name: String?): String = if (name == null) "Hello, Stranger!" else "Hello, $name"
 }
-
-fun main() {
-    val greeting = Greeting()
-    println(greeting.sayHello(null))
-    println(greeting.sayHello("Won Joon"))
-}

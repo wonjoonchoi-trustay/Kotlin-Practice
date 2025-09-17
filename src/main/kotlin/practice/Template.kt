@@ -6,7 +6,3 @@ package practice
 
 
 
-
-fun main() {
-
-}

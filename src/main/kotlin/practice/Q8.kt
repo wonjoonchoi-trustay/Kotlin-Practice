@@ -63,12 +63,3 @@ class Cat(val name: String) : Animal {
 
     override fun makeSoundStr(): String = "$name says: Meow!"
 }
-
-fun main() {
-    val animals: List<Animal> = listOf(
-        Dog("Doggy"),
-        Cat("Kitten")
-    )
-
-    animals.forEach { it.makeSound() }
-}

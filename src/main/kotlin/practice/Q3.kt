@@ -77,10 +77,3 @@ enum class Day(val displayName: String) {
         }
     }
 }
-
-fun main() {
-    val dayChecker = DayChecker()
-    println(dayChecker.checkDay(1))
-    println(dayChecker.checkDay(2))
-    println(dayChecker.checkDay(3))
-}

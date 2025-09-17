@@ -47,11 +47,6 @@ class CollectionExample3 {
             .map { it.uppercase() }
 }
 
-
-fun main() {
-
-}
-
 /*
 // Array
 val arr = arrayOf("A", "B", "C")

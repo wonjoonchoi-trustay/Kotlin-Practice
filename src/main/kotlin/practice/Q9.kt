@@ -40,7 +40,3 @@ fun handleResult(result: Result): String =
         is Result.Success -> "Success with data: ${result.data}"
         is Result.Error -> "Error: ${result.message}"
     }
-
-fun main() {
-
-}

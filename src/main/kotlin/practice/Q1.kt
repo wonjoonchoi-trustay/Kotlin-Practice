@@ -30,9 +30,7 @@ public class Person {
 
 
 👉 변환 시 고려사항:
-
 val / var 적절히 사용
-
 custom getter 활용
 불필요한 보일러플레이트 제거
  */

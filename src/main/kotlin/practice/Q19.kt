@@ -1,6 +1,6 @@
 package practice
 
-import sun.jvm.hotspot.HelloWorld.e
+
 import java.io.BufferedReader
 import java.io.FileReader
 import java.io.IOException
@@ -63,7 +63,6 @@ class FileUtil {
                 onSuccess = { it },
                 onFailure = { e -> "Error: ${e.message}" }
             )
-
         }
     }
 }
